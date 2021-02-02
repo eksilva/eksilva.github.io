@@ -4,12 +4,14 @@ import ReactDOM from 'react-dom';
 // Components
 import Heading from './components/Heading.jsx';
 import About from './components/About.jsx';
+import Footing from "./components/Footing.jsx";
 
 const Index = () => {
   return (
     <div id="index-wrapper">
       <Heading />
       <About />
+      <Footing />
     </div>
   )
 }

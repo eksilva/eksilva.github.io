@@ -1,7 +1,7 @@
 html {
   background: #053449;
   font-family: 'Fira Code', monospace;
-  margin: 1.5%;
+  margin: 2.5%;
 }
 
 .hollow-button {
@@ -22,11 +22,29 @@ html {
   color: rgb(98, 243, 158);
   width: 25px;
   height: 25px;
+  margin-right: 1rem;
+}
+
+.who-i-am {
+  font-family: 'Kanit', sans-serif;
+  font-size: 5rem;
+  color: rgb(212, 153, 212);
+  height: min-content;
+  margin-left: 1%;
+}
+
+.footing-icons {
+  margin-right: 4px;
 }
 
 #heading-wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+#heading-right {
+  display: flex;
+  align-items: center;
 }
 
 #heading-icon {
@@ -36,26 +54,35 @@ html {
 }
 
 #about-wrapper {
-  margin: 2.5%;
-  padding: 0 0 0 4rem;
+  margin: 2%;
+  padding: 0 0 0 3rem;
 }
 
 #hi {
   color:rgb(98, 243, 158);
 }
 
-.who-i-am {
-  font-family: 'Kanit', sans-serif;
-  font-size: 5rem;
-  color: white;
-}
 
 #job-title {
   font-size: 3em;
   color: rgb(196, 194, 194);
+  margin-left: 1%;
+}
+
+#come-on-guy {
+  font-size: 0.75em;
+  color: rgb(196, 194, 194);
 }
 
 #about-paragraph {
-  color: rgb(212, 153, 212);
+  color:  rgb(196, 194, 194);
   width: 45%;
+  margin-left: 1%;
+}
+
+#footing-wrapper {
+  color: rgb(98, 243, 158);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
