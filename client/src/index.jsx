@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 // Components
 import Heading from './components/Heading.jsx';
 import About from './components/About.jsx';
+import Projects from './components/Projects.jsx';
 import Footing from "./components/Footing.jsx";
 
 const Index = () => {
@@ -11,7 +12,10 @@ const Index = () => {
     <div id="index-wrapper">
       <Heading />
       <About />
-      <Footing />
+      <Projects />
+      <div id="footing">
+       <Footing />
+      </div>
     </div>
   )
 }
