@@ -22,7 +22,7 @@ const Projects = () => {
   }, {
     name: 'Basic Contact Form',
     caption: 'It\'s in the name.',
-    image: '',
+    image: '/assets/ContactScreen.png',
     github: 'https://github.com/eksilva/JUCCodingProject'
   }];
 
