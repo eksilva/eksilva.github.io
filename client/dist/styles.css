@@ -67,6 +67,11 @@ hr {
   font-size: 0.8em;
 }
 
+.project-img {
+  width: 320px;
+  height: 180px;
+}
+
 .footing-icons {
   margin-right: 4px;
   color: rgb(98, 243, 158);

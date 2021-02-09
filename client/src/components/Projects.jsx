@@ -6,16 +6,24 @@ const Projects = () => {
 
   const projectsInfo = [{
     name: 'Roomie Ride',
-    caption: 'Wait, are you riding with me or her? What time? Where from? Do you have spots left in your car? Now you know.'
+    caption: 'Wait, are you riding with me or her? What time? Where from? Do you have spots left in your car? Now you know.',
+    image: '/assets/RoomieScreen.png',
+    github: 'https://github.com/eksilva/RoomieRide'
   }, {
     name: 'Financial Calculator',
-    caption: 'Basic "Financial Advisor" for your investment portfolio.'
+    caption: 'Basic "Financial Advisor" for your investment portfolio.',
+    image: '',
+    github: 'https://github.com/eksilva/BPProject'
   }, {
     name: 'Unus Annus',
-    caption: 'Memento mori. Countdown timer to practice React Hooks.'
+    caption: 'Memento mori. Countdown timer to practice React Hooks.',
+    image: '/assets/UnusAnnusScreen.png',
+    github: 'https://github.com/eksilva/UnusAnnus'
   }, {
     name: 'Basic Contact Form',
-    caption: 'It\'s in the name.'
+    caption: 'It\'s in the name.',
+    image: '',
+    github: 'https://github.com/eksilva/JUCCodingProject'
   }];
 
   const projects = projectsInfo.map((project) => <Project projectInfo={project} key={project.name}/>);

@@ -7,6 +7,7 @@ const port = process.env.PORT || 3000;
 require('dotenv').config();
 
 app.use('/', express.static(path.join(__dirname, '/../client/dist')));
+app.use('/assets', express.static(path.join(__dirname, '/../client/src/assets')));
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
