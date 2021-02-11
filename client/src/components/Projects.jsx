@@ -12,7 +12,7 @@ const Projects = () => {
   }, {
     name: 'Financial Calculator',
     caption: 'Basic "Financial Advisor" for your investment portfolio.',
-    image: '',
+    image: '/assets/FinancialScreen.png',
     github: 'https://github.com/eksilva/BPProject'
   }, {
     name: 'Unus Annus',
@@ -21,7 +21,7 @@ const Projects = () => {
     github: 'https://github.com/eksilva/UnusAnnus'
   }, {
     name: 'Basic Contact Form',
-    caption: 'It\'s in the name.',
+    caption: 'Dabbling in styled-components.',
     image: '/assets/ContactScreen.png',
     github: 'https://github.com/eksilva/JUCCodingProject'
   }];
