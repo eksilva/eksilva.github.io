@@ -6,7 +6,7 @@ const Projects = () => {
 
   const projectsInfo = [{
     name: 'Roomie Ride',
-    caption: 'Wait, are you riding with me or her? What time? Where from? Do you have spots left in your car? Now you know.',
+    caption: 'Wait, are you riding with me or her? When? Where from? Do you have any spots left? Now you know.',
     image: '/assets/RoomieScreen.png',
     github: 'https://github.com/eksilva/RoomieRide'
   }, {
