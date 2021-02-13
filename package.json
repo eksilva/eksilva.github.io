@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode=production",
     "devbuild": "webpack -d --watch",
     "devstart": "nodemon server/index.js",
     "start": "node server/index.js",
