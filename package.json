@@ -1,5 +1,5 @@
 {
-  "name": "kimosilva",
+  "name": "eksilva-github-io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,7 @@
     "devbuild": "webpack -d --watch",
     "devstart": "nodemon server/index.js",
     "predeploy": "npm run build",
-    "start": "node server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eksilva/kimosilva/issues"
+    "url": "https://github.com/eksilva/eksilva.github.io/issues"
   },
   "homepage": "http://eksilva.github.io/",
   "dependencies": {
