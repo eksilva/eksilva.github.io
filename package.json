@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/eksilva/kimosilva/issues"
   },
-  "homepage": "http://eksilva.github.io/eksilva.github.io",
+  "homepage": "http://eksilva.github.io/",
   "dependencies": {
     "axios": "^0.21.1",
     "babel-loader": "^8.1.0",
