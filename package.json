@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d client/dist",
     "devbuild": "webpack -d --watch",
     "devstart": "nodemon server/index.js",
     "predeploy": "npm run build",
