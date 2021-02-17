@@ -7,22 +7,22 @@ const Projects = () => {
   const projectsInfo = [{
     name: 'Roomie Ride',
     caption: 'Wait, are you riding with me or her? When? Where from? Do you have any spots left? Now you know.',
-    image: '../assets/RoomieScreen.png',
+    image: '/client/src/assets/RoomieScreen.png',
     github: 'https://github.com/eksilva/RoomieRide'
   }, {
     name: 'Financial Calculator',
     caption: 'Basic "Financial Advisor" for your investment portfolio.',
-    image: '../assets/FinancialScreen.png',
+    image: '/client/src/assets/FinancialScreen.png',
     github: 'https://github.com/eksilva/BPProject'
   }, {
     name: 'Unus Annus',
     caption: 'Memento mori. Countdown timer to practice React Hooks.',
-    image: '../assets/UnusAnnusScreen.png',
+    image: '/client/src/assets/UnusAnnusScreen.png',
     github: 'https://github.com/eksilva/UnusAnnus'
   }, {
     name: 'Basic Contact Form',
     caption: 'Dabbling in styled-components.',
-    image: '../assets/ContactScreen.png',
+    image: '/client/src/assets/ContactScreen.png',
     github: 'https://github.com/eksilva/JUCCodingProject'
   }];
 
