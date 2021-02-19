@@ -5,11 +5,6 @@ html {
   margin: 2.5%;
 }
 
-hr {
-  border-top: 0.5px;
-  width: 50%;
-}
-
 .hollow-button {
   border: 2px solid #62f39e;
   border-radius: 4px;
@@ -29,7 +24,7 @@ hr {
 }
 
 .header-link-icons {
-  color: rgb(98, 243, 158);
+  color: #62f39e;
   width: 25px;
   height: 25px;
   margin-right: 1rem;
@@ -42,15 +37,15 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2%;
 }
 
 .project-frame {
   width: 320px;
   height: 180px;
-  border: 2px solid rgb(98, 243, 158);
+  border: 2px solid #62f39e;
   border-radius: 4px;
   background: rgba(98, 243, 158, 0.100);
+  box-shadow: 0px 30px 90px -10px rgba(0, 0, 0, 0.6);
 }
 
 .project-name {
@@ -76,15 +71,11 @@ hr {
 
 .footing-icons {
   margin-right: 4px;
-  color: rgb(98, 243, 158);
+  color: #62f39e;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-/* #index-wrapper {
-  
-} */
 
 #heading-wrapper {
   display: flex;
@@ -97,19 +88,25 @@ hr {
 }
 
 #heading-icon {
-  color: rgb(98, 243, 158);
+  color: #62f39e;
   width: 40px;
   height: 40px;
 }
 
+#content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #about-wrapper {
   margin-top: 4%;
-  padding: 0 0 0 6rem;
+  max-width: 1000px;
 }
 
 #greeting {
   font-size: 20px;
-  color:rgb(98, 243, 158);
+  color:#62f39e;
 }
 
 #my-name {
@@ -125,11 +122,11 @@ hr {
 }
 
 #projects-section-wrapper {
-  margin: 0 6rem 0 6rem;
+  max-width: 1000px;
 }
 
 #projects-headline {
-  color:rgb(98, 243, 158);
+  color:#62f39e;
 }
 
 #projects-wrapper {
@@ -138,17 +135,18 @@ hr {
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: 700px;
+  padding: 0 1.5%;
+  margin-top: 5%;
 }
 
 #footing {
-  height: 100vh;
+  color: #62f39e;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
 #footing-wrapper {
-  color: rgb(98, 243, 158);
   display: flex;
   justify-content: center;
   align-items: center;
