@@ -139,14 +139,14 @@ html {
   margin-top: 5%;
 }
 
-#footing {
-  color: #62f39e;
+/* #footing {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-}
+} */
 
 #footing-wrapper {
+  color: #62f39e;
   display: flex;
   justify-content: center;
   align-items: center;
