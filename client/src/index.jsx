@@ -11,10 +11,12 @@ const Index = () => {
   return (
     <div id="index-wrapper">
       <Heading />
-      <About />
-      <Projects />
-      <div id="footing">
-       <Footing />
+      <div id="content-wrapper">
+        <About />
+        <Projects />
+        <div id="footing">
+          <Footing />
+        </div>
       </div>
     </div>
   )
