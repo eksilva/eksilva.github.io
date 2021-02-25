@@ -14,9 +14,7 @@ const Index = () => {
       <div id="content-wrapper">
         <About />
         <Projects />
-        <div id="footing">
-          <Footing />
-        </div>
+        <Footing />
       </div>
     </div>
   )

@@ -139,15 +139,37 @@ html {
   margin-top: 5%;
 }
 
-/* #footing {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-} */
-
 #footing-wrapper {
   color: #62f39e;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media all and (max-width: 740px) {
+  #about-wrapper {
+    text-align: center;
+  }
+
+  #about-paragraph {
+    color: rgb(196, 194, 194);
+    width: fit-content;
+  }
+
+  #projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 1.5%;
+    height: fit-content;
+    margin-top: 5%;
+  }
+
+  #projects-headline {
+    text-align: center;
+  }
+
+  #footing-wrapper {
+    margin-top: 5%;
+  }
 }
