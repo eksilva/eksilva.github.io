@@ -69,10 +69,16 @@ html {
   height: 180px;
 }
 
+.view-code-link {
+  text-decoration: none;
+  color: #62f39e;
+}
+
 .footing-icons {
   margin-right: 4px;
   color: #62f39e;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -142,6 +148,7 @@ html {
 #footing-wrapper {
   color: #62f39e;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -160,9 +167,12 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 0 1.5%;
     height: fit-content;
     margin-top: 5%;
+  }
+
+  .project-caption {
+    margin-bottom: 5%;
   }
 
   #projects-headline {
@@ -171,5 +181,11 @@ html {
 
   #footing-wrapper {
     margin-top: 5%;
+  }
+
+  .footing-icons {
+    height: 25px;
+    width: 25px;
+    padding-top: 10px;
   }
 }

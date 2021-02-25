@@ -8,12 +8,14 @@ const Projects = () => {
     name: 'Roomie Ride',
     caption: 'Wait, are you riding with me or her? When? Where from? Do you have any spots left? Now you know.',
     image: `${__dirname}assets/RoomieScreen.webp`,
-    github: 'https://github.com/eksilva/RoomieRide'
+    github: 'https://github.com/eksilva/RoomieRide',
+    heroku: 'https://github.com/eksilva/RoomieRide'
   }, {
     name: 'Financial Calculator',
     caption: 'Basic "Financial Advisor" for your investment portfolio.',
     image: `${__dirname}assets/FinancialScreen.webp`,
-    github: 'https://github.com/eksilva/BPProject'
+    github: 'https://github.com/eksilva/BPProject',
+    heroku: 'https://github.com/eksilva/BPProject'
   }, {
     name: 'Unus Annus',
     caption: 'Memento mori. Countdown timer to practice React Hooks.',
