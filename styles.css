@@ -1,9 +1,52 @@
 html {
   background: #053449;
   font-family: 'Fira Code', monospace;
-  color:rgb(196, 194, 194);
+  color:#c4c2c2;
   margin: 2.5%;
 }
+
+img {
+  border-radius: 2px;
+}
+
+.jawn {
+  position: relative;
+  background-color: #62f39e;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 3%;
+}
+.jawn:after, .jawn:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+.jawn:after {
+  left: -10px;
+  top: -5px;
+  background-color: #c4c2c2;
+  transform-origin: 15px 10px;
+  animation: axis 1s linear infinite;
+}
+.jawn:before {
+  left: -25px;
+  top: -15px;
+  background-color: #d499d4;
+  transform-origin: 30px 20px;
+  animation: axis 2s linear infinite;
+}
+@keyframes axis {
+  0% {
+    transform: rotateZ(0deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotateZ(360deg) translate3d(0, 0, 0);
+  }
+}
+
 
 .hollow-button {
   border: 2px solid #62f39e;
@@ -86,6 +129,7 @@ html {
 #heading-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #heading-right {
@@ -118,11 +162,11 @@ html {
 #my-name {
   font-family: 'Kanit', sans-serif;
   font-size: 80px;
-  color: rgb(212, 153, 212);
+  color: #d499d4;
 }
 
 #about-paragraph {
-  color: rgb(196, 194, 194);
+  color: #c4c2c2;
   width: 70%;
   margin-bottom: 2rem;
 }
@@ -154,12 +198,16 @@ html {
 }
 
 @media all and (max-width: 740px) {
+  .jawn {
+    margin-left: 6%;
+  }
+
   #about-wrapper {
     text-align: center;
   }
 
   #about-paragraph {
-    color: rgb(196, 194, 194);
+    color: #c4c2c2;
     width: fit-content;
   }
 
