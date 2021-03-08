@@ -175,17 +175,17 @@ html {
     margin-bottom: 5%;
   }
 
+  .footing-icons {
+    height: 25px;
+    width: 25px;
+    padding-top: 10px;
+  }
+
   #projects-headline {
     text-align: center;
   }
 
   #footing-wrapper {
     margin-top: 5%;
-  }
-
-  .footing-icons {
-    height: 25px;
-    width: 25px;
-    padding-top: 10px;
   }
 }
