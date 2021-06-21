@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Project from "./Project.jsx";
-console.log(__dirname);
+
 const Projects = () => {
 
   const projectsInfo = [{
