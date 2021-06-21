@@ -1,29 +1,33 @@
 import React from 'react';
 
 import Project from "./Project.jsx";
-console.log(__dirname);
+
 const Projects = () => {
 
   const projectsInfo = [{
     name: 'Roomie Ride',
     caption: 'Wait, are you riding with me or her? When? Where from? Do you have any spots left? Now you know.',
-    image: `${__dirname}assets/RoomieScreen.png`,
-    github: 'https://github.com/eksilva/RoomieRide'
+    image: `${__dirname}assets/RoomieScreen.webp`,
+    github: 'https://github.com/eksilva/RoomieRide',
+    heroku: 'https://github.com/eksilva/RoomieRide'
   }, {
     name: 'Financial Calculator',
     caption: 'Basic "Financial Advisor" for your investment portfolio.',
-    image: `${__dirname}assets/FinancialScreen.png`,
-    github: 'https://github.com/eksilva/BPProject'
+    image: `${__dirname}assets/FinancialScreen.webp`,
+    github: 'https://github.com/eksilva/BPRedux',
+    heroku: 'https://fin-react-redux.herokuapp.com/'
   }, {
     name: 'Unus Annus',
     caption: 'Memento mori. Countdown timer to practice React Hooks.',
-    image: `${__dirname}assets/UnusAnnusScreen.png`,
-    github: 'https://github.com/eksilva/UnusAnnus'
+    image: `${__dirname}assets/UnusAnnusScreen.webp`,
+    github: 'https://github.com/eksilva/UnusAnnus',
+    heroku: 'https://unus-annus-kimo.herokuapp.com/'
   }, {
     name: 'Basic Contact Form',
     caption: 'Dabbling in styled-components.',
-    image: `${__dirname}assets/ContactScreen.png`,
-    github: 'https://github.com/eksilva/JUCCodingProject'
+    image: `${__dirname}assets/ContactScreen.webp`,
+    github: 'https://github.com/eksilva/JUCCodingProject',
+    heroku: 'http://basic-contact-form-kimo.herokuapp.com/'
   }];
 
   const projects = projectsInfo.map((project) => <Project projectInfo={project} key={project.name}/>);
