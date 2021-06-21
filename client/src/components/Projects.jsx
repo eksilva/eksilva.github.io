@@ -14,7 +14,7 @@ const Projects = () => {
     name: 'Financial Calculator',
     caption: 'Basic "Financial Advisor" for your investment portfolio.',
     image: `${__dirname}assets/FinancialScreen.webp`,
-    github: 'https://github.com/eksilva/BPProject',
+    github: 'https://github.com/eksilva/BPRedux',
     heroku: 'https://fin-react-redux.herokuapp.com/'
   }, {
     name: 'Unus Annus',
