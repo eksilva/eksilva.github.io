@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack --mode=production",
     "deploy": "gh-pages -d client/dist",
-    "devbuild": "webpack -d --watch",
-    "devstart": "nodemon server/index.js",
+    "devBuild": "webpack -d --watch",
+    "devStart": "nodemon server/index.js",
     "predeploy": "npm run build",
     "start": "node server/index.js"
   },
@@ -32,7 +32,6 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^4.1.0",
-    "react-pdf": "^5.1.0",
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
@@ -40,6 +39,7 @@
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
+    "cypress": "^6.6.0",
     "gh-pages": "^3.1.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
