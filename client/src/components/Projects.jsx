@@ -15,7 +15,7 @@ const Projects = () => {
     caption: 'Basic "Financial Advisor" for your investment portfolio.',
     image: `${__dirname}assets/FinancialScreen.webp`,
     github: 'https://github.com/eksilva/BPProject',
-    heroku: 'https://github.com/eksilva/BPProject'
+    heroku: 'https://fin-react-redux.herokuapp.com/'
   }, {
     name: 'Unus Annus',
     caption: 'Memento mori. Countdown timer to practice React Hooks.',
