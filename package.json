@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack --mode=production",
     "deploy": "gh-pages -d client/dist",
-    "devbuild": "webpack -d --watch",
-    "devstart": "nodemon server/index.js",
+    "devBuild": "webpack -d --watch",
+    "devStart": "nodemon server/index.js",
     "predeploy": "npm run build",
     "start": "node server/index.js"
   },
